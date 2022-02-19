@@ -16,6 +16,8 @@ public class TestHospital {
         fh.orthoServices();
         fh.physioServices();
 
+        System.out.println(USMedical.min_fee + " :: Default fee.");
+
         System.out.println("----");
         USMedical us = new FortisHospital();
         us.cardioServices();
