@@ -17,5 +17,4 @@ public class ExcelSheetColumnNum_168 {
     public static void main(String[] args) {
         System.out.println(convertToTitle(701));
     }
-
 }
