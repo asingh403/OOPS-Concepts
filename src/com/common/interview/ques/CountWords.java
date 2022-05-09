@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class CountWords {
     public static void main(String[] args) {
-        String s = "aabbbccda";
+        String s = "pyaahppl";
         Pattern p =Pattern.compile("(.)\\1*");
         Matcher m = p.matcher(s);
 
